@@ -1,0 +1,47 @@
+.sub-container{
+    display: flex;
+    margin: 20px;
+    
+    gap: 2rem;
+}
+
+.details-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 2rem;
+}
+
+.checkbox-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+.checkbox span{
+    width: 100px;
+}
+
+.input-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+
+.input input{
+    width: 40px;
+}

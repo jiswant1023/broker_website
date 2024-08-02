@@ -1,0 +1,14 @@
+.googleButton{
+    width: 420px;
+    height: 40px;
+    cursor: pointer; 
+    border-radius: 10px;
+    background-color: rgb(136, 2, 2);
+    color: white;
+    margin-top: 40px;
+}
+
+
+.googleButton:hover{
+    background-color: rgb(204, 9, 9);
+}

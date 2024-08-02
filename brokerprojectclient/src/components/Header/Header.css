@@ -1,0 +1,78 @@
+.header_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(226 232 240);
+  align-items: center;
+  box-shadow: 0 4px 6px 1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.header_container_name {
+  display: flex;
+  gap: 3px;
+  cursor: pointer;
+}
+
+#sahand {
+  color: rgb(85, 83, 83);
+}
+
+#estate {
+  color: rgb(20, 20, 20);
+}
+
+.header_container_search {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(247, 245, 245);
+  border-radius: 5px;
+  min-width: auto;
+  width: 450px;
+}
+
+#header_container_search_input {
+  min-width: auto;
+  width: 90%;
+  height: 40px;
+  background-color: rgb(247, 245, 245);
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  padding-left: 10px;
+  outline: none;
+  color: rgb(85, 85, 85);
+}
+
+.search-icon {
+  background-color: rgb(247, 245, 245);
+  width: 15px;
+  height: 38px;
+  padding: 2px;
+  color: rgb(126, 124, 124);
+}
+
+.header_name_button {
+  display: flex;
+  gap: 1rem;
+}
+
+.header_name_button button {
+   
+  border: none;
+  background-color: rgb(226 232 240);
+  font-size: 15px;
+  color: rgb(74, 83, 92);
+  cursor: pointer;
+}
+
+
+.header_name_button button:hover {
+  border-bottom: solid 1px rgb(74, 83, 92);
+}
+
+.header_name_button img{
+height: 25px;
+width: 25px;
+border-radius: 100%;
+}
