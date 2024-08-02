@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node brokerprojectBackend/index.js",
     "dev": "nodemon brokerprojectBackend/index.js",
-    "build":"npm install && npm install --prefixbrokerprojectclient && npm run build --prefixbrokerprojectclient"
+    "build":"npm install && npm install --prefix brokerprojectclient && npm run build --prefix brokerprojectclient"
   },
   "keywords": [],
   "author": "",
