@@ -23,6 +23,7 @@ app.use(express.json());
 
 app.use(cookieParser());
 
+
 app.listen(1000, () => {
     console.log("Server is up and running at port 1000.");
 });
