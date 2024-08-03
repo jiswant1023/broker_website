@@ -30,5 +30,6 @@
 <h2>Sign out page</h2>
 <p>POST: /signout</p>
 
-
+<h2>Listing page page</h2>
+<p>POST: /listing</p>
 
