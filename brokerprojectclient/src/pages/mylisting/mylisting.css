@@ -1,0 +1,21 @@
+.userList_Container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 12px;
+    
+}
+
+
+.listing_container{
+    margin: 15px 10px;
+    width: 169px;
+    height: 192px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.listing_container img{
+    width: 140px;
+    height: 150px;
+    
+}

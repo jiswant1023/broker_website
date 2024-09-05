@@ -1,11 +1,11 @@
-.container{
+.sign-up_container{
     display: flex;
     flex-direction: column;
     
     align-items: center;
 }
 
-.container h1{
+.sign-up_container h1{
     text-align: center;
 }
 

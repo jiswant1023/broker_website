@@ -63,7 +63,9 @@ export default function Profile() {
         <img src={currentUser.rest.avatar} alt="profile.jpg" />
         <p>User name: {currentUser.rest.username}</p>
         <p>Email: {currentUser.rest.email}</p>
-        <button>Update profile</button>
+        <Link to='/mylisting'>
+        <button>My Listing</button>
+        </Link>
         <Link to='/listing'>
         <button>Add your listing</button>
         </Link>

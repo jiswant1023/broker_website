@@ -49,7 +49,7 @@ export default function SignUp() {
   };
 
   return (
-    <div className="container">
+    <div className="sign-up_container">
       <h1>Sign Up</h1>
 
       <form onSubmit={handleSubmit} className="signup_form">
